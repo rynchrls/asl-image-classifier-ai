@@ -1,0 +1,36 @@
+transformers[torch]
+torch
+datasets
+huggingface_hub[hf_xet]
+evaluate
+scipy 
+scikit-learn
+wandb
+matplotlib
+seaborn
+torchvision
+kagglehub
+opencv-python
+mediapipe
+gradio
+
+# "google/vit-base-patch16-224-in21k" (slightly larger)
+
+# "microsoft/resnet-18" (small ResNet)
+
+# "microsoft/resnet-34" (a bit stronger but still light)
+
+
+
+
+# ✅ What you should do is create a venv with Python 3.10 and reinstall your ML dependencies there.
+
+# # from inside your project folder
+# py -3.10 -m venv .venv310
+# .venv310\Scripts\activate
+
+
+# Then install CUDA-enabled PyTorch:
+
+# pip install --upgrade pip
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121

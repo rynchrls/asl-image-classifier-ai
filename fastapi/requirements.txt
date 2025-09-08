@@ -1,0 +1,19 @@
+fastapi
+uvicorn
+transformers[torch]
+torch
+datasets
+huggingface_hub[hf_xet]
+evaluate
+scipy 
+scikit-learn
+wandb
+matplotlib
+seaborn
+torchvision
+kagglehub
+opencv-python
+mediapipe
+pydantic-settings
+python-multipart
+# uvicorn app.main:app --host localhost --port 5000 --reload

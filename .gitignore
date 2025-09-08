@@ -1,0 +1,4 @@
+.venv310*
+__pycache__*
+asl_dataset-old*
+train.py
