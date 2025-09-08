@@ -1,4 +1,4 @@
-# ASL Image Upload → Word Builder
+# ASL Image Classification AI
 
 This is a web-based tool to **upload ASL (American Sign Language) hand images** and automatically build words from the detected letters. It supports **bulk image uploads**, provides **image previews**, and dynamically displays the detected word with animations.
 
